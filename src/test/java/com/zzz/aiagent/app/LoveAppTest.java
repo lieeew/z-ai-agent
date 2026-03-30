@@ -20,7 +20,7 @@ class LoveAppTest {
         String chatId = UUID.randomUUID().toString();
         String message = "帮我搜寻一些有关蔡徐坤的图片";
         String answer = loveApp.doChatWithMcp(message,chatId);
-
+        System.out.println("answer = " + answer);
     }
 
     /*@Test

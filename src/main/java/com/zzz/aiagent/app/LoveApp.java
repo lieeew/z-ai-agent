@@ -144,7 +144,7 @@ public class LoveApp {
                         .param(CHAT_MEMORY_RETRIEVE_SIZE_KEY, 10))
                 // 开启日志，便于观察效果
                 .advisors(new MyLoggerAdvisor())
-                .tools(toolCallbackProvider)
+                .toolCallbacks(toolCallbackProvider)
                 .call()
                 .chatResponse();
 

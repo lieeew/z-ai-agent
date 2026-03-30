@@ -135,14 +135,6 @@
             <artifactId>hutool-ai</artifactId>
             <version>5.8.38</version>
         </dependency>
-
-        <!-- 子模块依赖 -->
-        <dependency>
-            <groupId>com.zzz</groupId>
-            <artifactId>z-image-search-mcp-server</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
-
     </dependencies>
 
     <build>
